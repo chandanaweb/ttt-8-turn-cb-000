@@ -29,7 +29,13 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
   isValid = valid_move?(board,index)
+  if isVaild === true
+    move(board,index)
+  else
   until isVaild === true
-    puts ''
+    puts 'Please enter correct input'
+    turn(board)
+  end
   move(board,index)
+end
 end
