@@ -19,3 +19,11 @@ end
 def input_to_index(num)
   return num.to_i - 1
 end
+
+def move(board,index)
+ return board[index] = 'X'
+end
+
+def turn()
+
+end
