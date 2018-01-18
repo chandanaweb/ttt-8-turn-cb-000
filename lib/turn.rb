@@ -32,10 +32,8 @@ def turn(board)
   if isValid === true
     move(board,index)
   else
-  until isValid === true
     puts 'Please enter correct input'
-    turn(board)
-  end
-  move(board,index)
+    end
 end
-end
+
+def failInput(isValid)
