@@ -2,7 +2,7 @@
 
 require_relative '../lib/turn'
 
-print "Please enter 1-9:"
+puts "Please enter 1-9:"
 board= [" "," "," "," "," "," "," "," "," "]
 num = gets.strip
 index = input_to_index(num)
