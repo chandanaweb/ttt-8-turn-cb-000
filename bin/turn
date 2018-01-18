@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../lib/turn'
-puts "Welcome to Tic Tac Toe!""
+puts "Welcome to Tic Tac Toe!"
 
 board= [" "," "," "," "," "," "," "," "," "]
 display_board(board)
@@ -9,4 +9,3 @@ turn(board)
 num = gets.strip
 index = input_to_index(num)
 move(board,index)
-
