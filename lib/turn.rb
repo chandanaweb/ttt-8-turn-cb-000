@@ -23,5 +23,3 @@ end
 def move(board,index,token = 'X')
  return board[index] = token
 end
-
-
