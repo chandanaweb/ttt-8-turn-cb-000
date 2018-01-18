@@ -7,5 +7,3 @@ board= [" "," "," "," "," "," "," "," "," "]
 display_board(board)
 turn(board)
 num = gets.strip
-index = input_to_index(num)
-move(board,index)
