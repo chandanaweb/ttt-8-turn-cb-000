@@ -20,7 +20,7 @@ def input_to_index(num)
   return num.to_i - 1
 end
 
-def move(board,index)
+def move(board,index,token = 'X')
  return board[index] = 'X'
 end
 
