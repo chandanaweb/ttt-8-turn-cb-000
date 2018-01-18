@@ -31,6 +31,7 @@ def turn(board)
   isValid = valid_move?(board,index)
   if isValid === true
     move(board,index)
+    display_board(board)
   else
     puts 'Please enter correct input'
     end
