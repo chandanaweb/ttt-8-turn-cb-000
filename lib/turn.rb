@@ -35,5 +35,3 @@ def turn(board)
     puts 'Please enter correct input'
     end
 end
-
-def failInput(isValid)
